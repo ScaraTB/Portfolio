@@ -1,0 +1,70 @@
+:root{
+    --signatureBlack: rgb(42,42,42);
+    --signatureRed: rgb(250, 69, 54);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 32, 32);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  Navbar*/
+header{
+    background-color: var(--signatureBlack);
+    color: var(--signatureRed);
+    display: flex;
+    /*padding: 0.75%;*/
+    justify-content: space-between;
+    justify-self: center;
+}
+div.wrapper{
+    display: flex;
+    padding-left: 7.5vw;
+}
+header img{
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(72,72,72);
+    margin: 5px;
+    border-radius: 5px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    font-size: 1.25rem;
+    margin: 0;
+    padding-right: 7.5vw;
+}
+ul li{
+    padding: 20px;
+    border-radius: 5px;
+}
+li:hover{
+    color: black;
+    background-color: azure;
+    box-shadow: 0 0 10px white, 0 0 40px white;
+}
+
+/* Middle*/
+.space{
+    padding-left:12vw;
+    padding-top: 18vw;
+    padding-bottom: 18vw;
+    background-image: url("Assets/background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: azure;
+}
+.dropShadow{
+    text-shadow: 2px 2px 0px black;
+}
+.space h2{
+    font-size: 2rem;
+}
+.space p{
+    font-size: 1.5rem;
+}
